@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5%;
+    padding-block: 7vh;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+h2{
+    color: white;
+}
+
+.icon{
+    font-size: 4vh;
+    color: white;
+}
+
