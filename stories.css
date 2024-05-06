@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.stories{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding-block: 1vh;
+    padding-inline:4vh ;
+    gap: 3vh;
+}
+
+.storie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.photo{
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    background-size:cover ;
+    padding: 2px;
+}
+
+.photo :hover{
+    transform: scale("1.8");
+}
+
+.user-storie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: x-small;
+    font-size: small;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.photo-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(photos/312904-P8IMVC-378.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px){
+       .stories{
+        padding-inline: 10em;
+       }
+    }

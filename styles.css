@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url(stories.css);
+
 *{
     padding: 0;
     margin: 0;
@@ -13,8 +16,8 @@ header{
     align-items: row;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 5%;
-    padding-block: 7vh;
+    padding-inline: 7%;
+    padding-block: 50px;
     height: 50px;
     width: 100%;
     background-color: black;
@@ -23,16 +26,23 @@ header{
 .icons{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 3em;
+}
 
+a{
+    text-decoration: none;
 }
 
 h2{
+    font-size: 160%;
     color: white;
+    font-family: "Inconsolata", monospace;
 }
 
 .icon{
-    font-size: 4vh;
+    font-size: 3vh;
     color: white;
 }
+
+
 
