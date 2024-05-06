@@ -1,0 +1,58 @@
+.post{
+    position: relative;
+    width: 100%; /* Defina a largura desejada */
+    height: auto; /* Defina a altura desejada */
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2vh;
+}
+
+.content-header a{
+   display: flex;
+   align-items: center;
+   gap:5px;
+   color:white;
+}
+
+.interactions a i{
+    color: white;
+    font-size: larger;
+}
+
+.main-interactions{
+    display: flex;
+    gap: 1em;
+}
+
+.content-header img{
+    height: 2em;
+    width: 2em;
+}
+
+.interactions{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1em;
+    padding-block: 1em;
+}
+
+.content img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.comments p{
+    color: white;
+    padding:1em;
+}
+
+.comments p a{
+    color: aqua;
+}

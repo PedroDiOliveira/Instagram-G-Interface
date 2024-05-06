@@ -5,8 +5,8 @@
     flex-direction: row;
     background-color: black;
     padding-block: 1vh;
-    padding-inline:4vh ;
-    gap: 3vh;
+    padding-inline:5% ;
+    gap: 2vh;
 }
 
 .storie{
@@ -16,6 +16,7 @@
     font-size: small;
     font-family: "Open Sans", sans-serif;
     color: white;
+    
 }
 
 .photo{
@@ -50,8 +51,9 @@
     border-radius: 50%;
 }
 
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
        .stories{
         padding-inline: 10em;
        }
     }
+*/
