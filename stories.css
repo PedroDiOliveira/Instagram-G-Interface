@@ -7,6 +7,15 @@
     padding-block: 1vh;
     padding-inline:5% ;
     gap: 2vh;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.stories::-webkit-scrollbar{
+    display: none;
 }
 
 .storie{
